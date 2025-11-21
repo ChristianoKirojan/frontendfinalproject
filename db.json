@@ -1,0 +1,137 @@
+{
+  "organizations": [
+    {
+      "id": 1,
+      "name": "Tou Minahasa",
+      "image": "/src/assets/touminahasa.jpg",
+      "description": "Organisasi kedaerahan mahasiswa Minahasa.",
+      "pengurus": {
+        "ketua": "Rantung, Alexander",
+        "wakil": "Mokoginta, Isal",
+        "sekretaris": "Kapoh, Meghia",
+        "bendahara": "Korengkeng, Angely",
+        "advisor": [
+          "Sir Lumoindong, Boy M.Pd",
+          "Sir Frans, Nofry M.Pd"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "CSSA",
+      "image": "/src/assets/cssa.jpg",
+      "description": "Computer Science Student Association.",
+      "pengurus": {
+        "ketua": "Keni, Riana",
+        "wakil": "Londah, Miceflona",
+        "sekretaris": "Siwi, Meilyan",
+        "bendahara": "Eklesia Dondokambey",
+        "advisor": [
+          "Sir Sandag, Green M.S",
+          "Sir Kopopitawondal, Julio",
+          "Sir Silitonga, Argha"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Matuariwaya",
+      "image": "/src/assets/matuariwaya.jpg",
+      "description": "Organisasi mahasiswa Bolaang Mongondow.",
+      "pengurus": {
+        "ketua": "Maengkom, Piere",
+        "wakil": "Manampiring, Cliford",
+        "sekretaris": "Lembong, Prince",
+        "bendahara": "Lomban, Niken",
+        "advisor": "-"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Maranatha",
+      "image": "/src/assets/maranatha.jpg",
+      "description": "Organisasi rohani mahasiswa Maranatha.",
+      "pengurus": {
+        "ketua": "Maengkom, Belden",
+        "wakil": "Geilsen Kossoh",
+        "sekretaris": "Mamuaya, Tiara",
+        "bendahara": "Gulfan Dayo",
+        "advisor": [
+          "Ir. Edson Y. Putra M.Kom",
+          "Sir Sahulata, Reynoldus A. S.Kom, M.M",
+          "Pdt Sanjaya, Febry S.Fil, M.Th",
+          "Sir Lontaan, Rolly J. M.Kom",
+          "Pdt Harwanto, Budi MDiv, PhD"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Mapala",
+      "image": "/src/assets/mapala.jpg",
+      "description": "Mahasiswa pecinta alam Universitas Klabat.",
+      "pengurus": {
+        "ketua": "Lompoliuw, Trafis",
+        "wakil": "Laksander, Brain",
+        "sekretaris": "Manueke, Bryen",
+        "bendahara": "Lengkong, Clifert",
+        "advisor": "-"
+      }
+    },
+    {
+      "id": 6,
+      "name": "IKMAPAP",
+      "image": "/src/assets/ikmapap.jpg",
+      "description": "Ikatan Mahasiswa Papua.",
+      "pengurus": {
+        "ketua": "Karubaba, Smart",
+        "wakil": "Andoro, Catline",
+        "sekretaris": "Rantung, Gian",
+        "bendahara": "Watulingas, Gilbert",
+        "advisor": "-"
+      }
+    },
+    {
+      "id": 7,
+      "name": "IKMAMA",
+      "image": "/src/assets/ikmama.jpg",
+      "description": "Ikatan Mahasiswa Maluku.",
+      "pengurus": {
+        "ketua": "Warembungan, Imanuel",
+        "wakil": "Tangkuman, Fieken",
+        "sekretaris": "Pamusuh, Clif",
+        "bendahara": "Rantung, Arjen",
+        "advisor": "-"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Totabuan",
+      "image": "/src/assets/totabuan.jpg",
+      "description": "Organisasi mahasiswa Bolaang Mongondow Raya.",
+      "pengurus": {
+        "ketua": "Dien, Fando",
+        "wakil": "Assa, Karfel",
+        "sekretaris": "Angkow, Dave",
+        "bendahara": "Lompoliuw, Ensi",
+        "advisor": "-"
+      }
+    },
+    {
+      "id": 9,
+      "name": "BEM",
+      "image": "/src/assets/bem.jpg",
+      "description": "Badan Eksekutif Mahasiswa Universitas Klabat.",
+      "pengurus": {
+        "ketua": "Heazer, Hizkia",
+        "wakil": "Gerung, Andrew",
+        "sekretaris": "Sela, Sheren",
+        "bendahara": "-",
+        "advisor": [
+          "Pdt Tauran, Edgar MDiv, DMiss",
+          "Sir Kasingku, Frisky j. S.E, MSc"
+        ]
+      }
+    }
+  ]
+}
