@@ -1,23 +1,25 @@
 {
   "organizations": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Tou Minahasa",
       "image": "/src/assets/touminahasa.jpg",
-      "description": "Organisasi kedaerahan mahasiswa Minahasa.",
+      "description": "Organisasi mahasiswa Minahasa.",
       "pengurus": {
         "ketua": "Rantung, Alexander",
         "wakil": "Mokoginta, Isal",
         "sekretaris": "Kapoh, Meghia",
         "bendahara": "Korengkeng, Angely",
         "advisor": [
-          "Sir Lumoindong, Boy M.Pd",
-          "Sir Frans, Nofry M.Pd"
+          "Sir Lumoindong",
+          "Boy M.Pd",
+          "Sir Frans",
+          "Nofry M.Pd"
         ]
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "CSSA",
       "image": "/src/assets/cssa.jpg",
       "description": "Computer Science Student Association.",
@@ -34,7 +36,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Matuariwaya",
       "image": "/src/assets/matuariwaya.jpg",
       "description": "Organisasi mahasiswa Bolaang Mongondow.",
@@ -47,7 +49,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Maranatha",
       "image": "/src/assets/maranatha.jpg",
       "description": "Organisasi rohani mahasiswa Maranatha.",
@@ -66,7 +68,7 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Mapala",
       "image": "/src/assets/mapala.jpg",
       "description": "Mahasiswa pecinta alam Universitas Klabat.",
@@ -79,7 +81,7 @@
       }
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "IKMAPAP",
       "image": "/src/assets/ikmapap.jpg",
       "description": "Ikatan Mahasiswa Papua.",
@@ -92,7 +94,7 @@
       }
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "IKMAMA",
       "image": "/src/assets/ikmama.jpg",
       "description": "Ikatan Mahasiswa Maluku.",
@@ -105,7 +107,7 @@
       }
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Totabuan",
       "image": "/src/assets/totabuan.jpg",
       "description": "Organisasi mahasiswa Bolaang Mongondow Raya.",
@@ -118,7 +120,7 @@
       }
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "BEM",
       "image": "/src/assets/bem.jpg",
       "description": "Badan Eksekutif Mahasiswa Universitas Klabat.",

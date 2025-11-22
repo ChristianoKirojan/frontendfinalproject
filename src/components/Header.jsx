@@ -12,6 +12,7 @@ export default function Header() {
         <Link to="/" className="text-2xl font-bold text-blue-600">Organisasi Yang Ada Di Universitas Klabat</Link>
         <nav className="space-x-4 text-gray-700">
           <Link to="/" className="hover:text-blue-600">Home</Link>
+          <Link to="/admin" className="hover:underline">Admin</Link>
         </nav>
       </div>
     </header>
