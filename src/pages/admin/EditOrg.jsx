@@ -22,7 +22,7 @@ export default function EditOrg() {
   useEffect(() => {
     getOrgById(id).then((data) => {
       setForm({
-        ...data, // <-- INI WAJIB supaya name, image, description ikut masuk
+        ...data,
         pengurus: {
           ...data.pengurus,
           advisor: Array.isArray(data.pengurus.advisor)
@@ -32,8 +32,15 @@ export default function EditOrg() {
       });
     });
   }, [id]);
+  
+  const handleBasicChange = (e) => {
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value
+    });
+  };
 
-  const handleChange = (e) => {
+  const handlePengurusChange = (e) => {
     setForm({
       ...form,
       pengurus: {
@@ -45,10 +52,12 @@ export default function EditOrg() {
 
   const save = async () => {
     const updatedData = {
-      ...form, // <-- PENTING: kirim semua field
+      ...form,
       pengurus: {
         ...form.pengurus,
-        advisor: form.pengurus.advisor.split(",").map((a) => a.trim())
+        advisor: form.pengurus.advisor
+          ? form.pengurus.advisor.split(",").map((a) => a.trim())
+          : []
       }
     };
 
@@ -58,15 +67,40 @@ export default function EditOrg() {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold mb-6">Edit Struktur Pengurus</h1>
+      <h1 className="text-3xl font-bold mb-6">Edit Organisasi</h1>
 
       <div className="space-y-3">
+
+        <input
+          name="name"
+          value={form.name}
+          onChange={handleBasicChange}
+          placeholder="NAMA ORGANISASI"
+          className="w-full p-2 border rounded"
+        />
+
+        <input
+          name="image"
+          value={form.image}
+          onChange={handleBasicChange}
+          placeholder="URL GAMBAR (boleh dikosongkan)"
+          className="w-full p-2 border rounded"
+        />
+
+        <textarea
+          name="description"
+          value={form.description}
+          onChange={handleBasicChange}
+          placeholder="DESKRIPSI ORGANISASI"
+          className="w-full p-2 border rounded"
+        />
+
         {Object.keys(form.pengurus).map((key) => (
           <input
             key={key}
             name={key}
             value={form.pengurus[key]}
-            onChange={handleChange}
+            onChange={handlePengurusChange}
             placeholder={key.toUpperCase()}
             className="w-full p-2 border rounded"
           />

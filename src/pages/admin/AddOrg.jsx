@@ -18,7 +18,14 @@ export default function AddOrg() {
     }
   });
 
-  const handleChange = (e) => {
+  const handleBasicChange = (e) => {
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value
+    });
+  };
+
+  const handlePengurusChange = (e) => {
     setForm({
       ...form,
       pengurus: {
@@ -33,7 +40,10 @@ export default function AddOrg() {
       ...form,
       pengurus: {
         ...form.pengurus,
-        advisor: form.pengurus.advisor.split(",").map((a) => a.trim())
+        advisor:
+          form.pengurus.advisor.length > 0
+            ? form.pengurus.advisor.split(",").map((a) => a.trim())
+            : []
       }
     };
 
@@ -43,40 +53,62 @@ export default function AddOrg() {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold mb-6">Tambah Struktur Pengurus</h1>
+      <h1 className="text-3xl font-bold mb-6">Tambah Organisasi Baru</h1>
 
       <div className="space-y-3">
+
+        <input
+          name="name"
+          onChange={handleBasicChange}
+          placeholder="NAMA ORGANISASI"
+          className="w-full p-2 border rounded"
+        />
+
+        <input
+          name="image"
+          onChange={handleBasicChange}
+          placeholder="URL GAMBAR / path gambar"
+          className="w-full p-2 border rounded"
+        />
+
+        <textarea
+          name="description"
+          onChange={handleBasicChange}
+          placeholder="DESKRIPSI"
+          className="w-full p-2 border rounded"
+        />
+
         <input
           name="ketua"
-          onChange={handleChange}
+          onChange={handlePengurusChange}
           placeholder="KETUA"
           className="w-full p-2 border rounded"
         />
 
         <input
           name="wakil"
-          onChange={handleChange}
+          onChange={handlePengurusChange}
           placeholder="WAKIL"
           className="w-full p-2 border rounded"
         />
 
         <input
           name="sekretaris"
-          onChange={handleChange}
+          onChange={handlePengurusChange}
           placeholder="SEKRETARIS"
           className="w-full p-2 border rounded"
         />
 
         <input
           name="bendahara"
-          onChange={handleChange}
+          onChange={handlePengurusChange}
           placeholder="BENDAHARA"
           className="w-full p-2 border rounded"
         />
 
         <input
           name="advisor"
-          onChange={handleChange}
+          onChange={handlePengurusChange}
           placeholder="ADVISOR (pisahkan dengan koma)"
           className="w-full p-2 border rounded"
         />

@@ -15,7 +15,6 @@ const CRUDPage = () => {
   });
   const [editId, setEditId] = useState(null);
 
-  // LOAD DATA (GET)
   const loadData = async () => {
     const data = await getAllOrgs();
     setOrgs(data);
@@ -25,21 +24,17 @@ const CRUDPage = () => {
     loadData();
   }, []);
 
-  // HANDLE ISI FORM
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // CREATE & UPDATE
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (editId) {
-      // UPDATE
       await updateOrg(editId, formData);
       setEditId(null);
     } else {
-      // CREATE
       await createOrg(formData);
     }
 
@@ -47,13 +42,11 @@ const CRUDPage = () => {
     loadData();
   };
 
-  // DELETE
   const handleDelete = async (id) => {
     await deleteOrg(id);
     loadData();
   };
 
-  // PRE-FILL FORM (EDIT)
   const handleEdit = (org) => {
     setEditId(org.id);
     setFormData({
@@ -67,7 +60,6 @@ const CRUDPage = () => {
     <div className="p-10">
       <h1 className="text-3xl font-bold mb-6">CRUD Organizations</h1>
 
-      {/* FORM */}
       <form onSubmit={handleSubmit} className="mb-10 space-y-3">
         <input
           name="name"
@@ -99,7 +91,6 @@ const CRUDPage = () => {
         </button>
       </form>
 
-      {/* TABLE LIST */}
       <table className="w-full border">
         <thead className="bg-gray-200">
           <tr>
