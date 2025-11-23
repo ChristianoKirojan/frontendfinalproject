@@ -19,18 +19,12 @@ export default function CardDetail() {
       <img
         src={org.image}
         alt={org.name}
-        className="rounded-2xl w-full max-w-lg h-auto mx-auto mb-6 object-cover shadow-lg hover:scale-105 duration-300"
+        className="w-40 h-40 object-cover mx-auto mt-4 rounded-lg shadow-md"
       />
-
-      {/* Judul */}
       <h1 className="text-4xl font-bold text-center mb-4">{org.name}</h1>
-
-      {/* Deskripsi */}
       <p className="text-gray-700 text-lg text-center mb-6 leading-relaxed">
         {org.description}
       </p>
-
-      {/* Grid Pengurus */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {Object.entries(org.pengurus).map(([role, value]) => (
           <div
@@ -40,8 +34,6 @@ export default function CardDetail() {
             <h3 className="font-semibold text-indigo-600 text-lg capitalize">
               {role}
             </h3>
-
-            {/* Jika Array → tampilkan per paragraf */}
             {Array.isArray(value) ? (
               value.map((v, i) => (
                 <p key={i} className="text-gray-700 mt-1">
