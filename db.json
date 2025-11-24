@@ -10,21 +10,6 @@
       ],
       "pengurus": {
         "ketua": {
-          "0": "[",
-          "1": "o",
-          "2": "b",
-          "3": "j",
-          "4": "e",
-          "5": "c",
-          "6": "t",
-          "7": " ",
-          "8": "O",
-          "9": "b",
-          "10": "j",
-          "11": "e",
-          "12": "c",
-          "13": "t",
-          "14": "]",
           "nama": "Rantung, Alex",
           "image": "/pengurus.jpg"
         },
@@ -40,14 +25,15 @@
           "nama": "Korengkeng, Angely",
           "image": "/pengurus.jpg"
         },
-        "advisor": {
-          "0": "[object Object]",
-          "1": "[object Object]",
-          "image": "/pengurus.jpg",
-          "nama": "Boy Lumoindong M.Pd"
-        }
+        "advisor": [
+          {
+            "nama": "Boy Lumoindong M.Pd",
+            "image": "/pengurus.jpg"
+          }
+        ]
       }
     },
+
     {
       "id": "2",
       "name": "CSSA",
@@ -74,21 +60,13 @@
           "image": "/pengurus.jpg"
         },
         "advisor": [
-          {
-            "nama": "Sir Sandag, Green M.S",
-            "image": "/pengurus.jpg"
-          },
-          {
-            "nama": "Sir Kopopitawondal, Julio",
-            "image": "/pengurus.jpg"
-          },
-          {
-            "nama": "Sir Silitonga, Argha",
-            "image": "/pengurus.jpg"
-          }
+          { "nama": "Sir Sandag, Green M.S", "image": "/pengurus.jpg" },
+          { "nama": "Sir Kopopitawondal, Julio", "image": "/pengurus.jpg" },
+          { "nama": "Sir Silitonga, Argha", "image": "/pengurus.jpg" }
         ]
       }
     },
+
     {
       "id": "3",
       "name": "Matuariwaya",
@@ -115,13 +93,11 @@
           "image": "/pengurus.jpg"
         },
         "advisor": [
-          {
-            "nama": "-",
-            "image": "/pengurus.jpg"
-          }
+          { "nama": "-", "image": "/pengurus.jpg" }
         ]
       }
     },
+
     {
       "id": "4",
       "name": "Maranatha",
@@ -148,29 +124,15 @@
           "image": "/pengurus.jpg"
         },
         "advisor": [
-          {
-            "nama": "Ir. Edson Y. Putra M.Kom",
-            "image": "/pengurus.jpg"
-          },
-          {
-            "nama": "Sir Sahulata, Reynoldus A. S.Kom, M.M",
-            "image": "/pengurus.jpg"
-          },
-          {
-            "nama": "Pdt Sanjaya, Febry S.Fil, M.Th",
-            "image": "/pengurus.jpg"
-          },
-          {
-            "nama": "Sir Lontaan, Rolly J. M.Kom",
-            "image": "/pengurus.jpg"
-          },
-          {
-            "nama": "Pdt Harwanto, Budi MDiv, PhD",
-            "image": "/pengurus.jpg"
-          }
+          { "nama": "Ir. Edson Y. Putra M.Kom", "image": "/pengurus.jpg" },
+          { "nama": "Sir Sahulata, Reynoldus A. S.Kom, M.M", "image": "/pengurus.jpg" },
+          { "nama": "Pdt Sanjaya, Febry S.Fil, M.Th", "image": "/pengurus.jpg" },
+          { "nama": "Sir Lontaan, Rolly J. M.Kom", "image": "/pengurus.jpg" },
+          { "nama": "Pdt Harwanto, Budi MDiv, PhD", "image": "/pengurus.jpg" }
         ]
       }
     },
+
     {
       "id": "5",
       "name": "Mapala",
@@ -197,13 +159,11 @@
           "image": "/pengurus.jpg"
         },
         "advisor": [
-          {
-            "nama": "-",
-            "image": "/pengurus.jpg"
-          }
+          { "nama": "-", "image": "/pengurus.jpg" }
         ]
       }
     },
+
     {
       "id": "6",
       "name": "IKMAPAP",
@@ -230,13 +190,11 @@
           "image": "/pengurus.jpg"
         },
         "advisor": [
-          {
-            "nama": "-",
-            "image": "/pengurus.jpg"
-          }
+          { "nama": "-", "image": "/pengurus.jpg" }
         ]
       }
     },
+
     {
       "id": "7",
       "name": "IKMAMA",
@@ -263,13 +221,11 @@
           "image": "/pengurus.jpg"
         },
         "advisor": [
-          {
-            "nama": "-",
-            "image": "/pengurus.jpg"
-          }
+          { "nama": "-", "image": "/pengurus.jpg" }
         ]
       }
     },
+
     {
       "id": "8",
       "name": "Totabuan",
@@ -296,13 +252,11 @@
           "image": "/pengurus.jpg"
         },
         "advisor": [
-          {
-            "nama": "-",
-            "image": "/pengurus.jpg"
-          }
+          { "nama": "-", "image": "/pengurus.jpg" }
         ]
       }
     },
+
     {
       "id": "9",
       "name": "BEM",
@@ -329,14 +283,8 @@
           "image": "/pengurus.jpg"
         },
         "advisor": [
-          {
-            "nama": "Pdt Tauran, Edgar MDiv, DMiss",
-            "image": "/pengurus.jpg"
-          },
-          {
-            "nama": "Sir Kasingku, Frisky j. S.E, MSc",
-            "image": "/pengurus.jpg"
-          }
+          { "nama": "Pdt Tauran, Edgar MDiv, DMiss", "image": "/pengurus.jpg" },
+          { "nama": "Sir Kasingku, Frisky j. S.E, MSc", "image": "/pengurus.jpg" }
         ]
       }
     }
