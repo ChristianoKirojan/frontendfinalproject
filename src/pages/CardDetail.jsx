@@ -22,7 +22,7 @@ export default function CardDetail() {
         className="w-40 h-40 object-cover mx-auto mt-4 rounded-lg shadow-md"
       />
       <h1 className="text-4xl font-bold text-center mb-4">{org.name}</h1>
-      <p className="text-gray-700 text-lg text-center mb-6 leading-relaxed">
+      <p className="text-white text-lg text-center mb-6 leading-relaxed">
         {org.description}
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

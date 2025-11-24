@@ -37,13 +37,15 @@
       "id": "3",
       "name": "Matuariwaya",
       "image": "/src/assets/matuariwaya.jpg",
-      "description": "Organisasi mahasiswa Bolaang Mongondow.",
+      "description": "Organisasi mahasiswa yang ada di sulawesi utara",
       "pengurus": {
         "ketua": "Maengkom, Piere",
         "wakil": "Manampiring, Cliford",
         "sekretaris": "Lembong, Prince",
         "bendahara": "Lomban, Niken",
-        "advisor": "-"
+        "advisor": [
+          "-"
+        ]
       }
     },
     {

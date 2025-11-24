@@ -9,7 +9,7 @@ import { Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50">
+    <div className="min-h-screen flex flex-col w-screen bg-[url('/uk.jpg')] bg-cover bg-center bg-no-repeat">
       <Header />
 
       <main className="flex-1 max-w-6xl mx-auto w-full p-6">
@@ -17,7 +17,6 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/organization/:id" element={<CardDetail />} />
 
-          {/* Admin Pages */}
           <Route path="/admin" element={<AdminList />} />
           <Route path="/admin/add" element={<AddOrg />} />
           <Route path="/admin/edit/:id" element={<EditOrg />} />

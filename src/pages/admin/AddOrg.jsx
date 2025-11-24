@@ -36,89 +36,72 @@ export default function AddOrg() {
   };
 
   const save = async () => {
-    const dataToSend = {
+    const newData = {
       ...form,
       pengurus: {
         ...form.pengurus,
-        advisor:
-          form.pengurus.advisor.length > 0
-            ? form.pengurus.advisor.split(",").map((a) => a.trim())
-            : []
+        advisor: form.pengurus.advisor
+          ? form.pengurus.advisor.split(",").map((a) => a.trim())
+          : []
       }
     };
 
-    await createOrg(dataToSend);
+    await createOrg(newData);
     nav("/admin");
   };
 
   return (
-    <div>
-      <h1 className="text-3xl font-bold mb-6">Tambah Organisasi Baru</h1>
+    <div className="w-full flex justify-center pt-28 pb-10 px-6">
+      {/* Card Container */}
+      <div className="w-full max-w-3xl bg-white rounded-xl shadow-lg p-8">
+        <h1 className="text-3xl font-bold mb-6 text-center">
+          Tambah Organisasi Baru
+        </h1>
 
-      <div className="space-y-3">
+        <div className="space-y-4">
 
-        <input
-          name="name"
-          onChange={handleBasicChange}
-          placeholder="NAMA ORGANISASI"
-          className="w-full p-2 border rounded"
-        />
+          <input
+            name="name"
+            value={form.name}
+            onChange={handleBasicChange}
+            placeholder="NAMA ORGANISASI"
+            className="w-full p-3 border rounded"
+          />
 
-        <input
-          name="image"
-          onChange={handleBasicChange}
-          placeholder="URL GAMBAR / path gambar"
-          className="w-full p-2 border rounded"
-        />
+          <input
+            name="image"
+            value={form.image}
+            onChange={handleBasicChange}
+            placeholder="URL GAMBAR (boleh dikosongkan)"
+            className="w-full p-3 border rounded"
+          />
 
-        <textarea
-          name="description"
-          onChange={handleBasicChange}
-          placeholder="DESKRIPSI"
-          className="w-full p-2 border rounded"
-        />
+          <textarea
+            name="description"
+            value={form.description}
+            onChange={handleBasicChange}
+            placeholder="DESKRIPSI ORGANISASI"
+            className="w-full p-3 border rounded"
+          />
 
-        <input
-          name="ketua"
-          onChange={handlePengurusChange}
-          placeholder="KETUA"
-          className="w-full p-2 border rounded"
-        />
+          {Object.keys(form.pengurus).map((key) => (
+            <input
+              key={key}
+              name={key}
+              value={form.pengurus[key]}
+              onChange={handlePengurusChange}
+              placeholder={key.toUpperCase()}
+              className="w-full p-3 border rounded"
+            />
+          ))}
 
-        <input
-          name="wakil"
-          onChange={handlePengurusChange}
-          placeholder="WAKIL"
-          className="w-full p-2 border rounded"
-        />
-
-        <input
-          name="sekretaris"
-          onChange={handlePengurusChange}
-          placeholder="SEKRETARIS"
-          className="w-full p-2 border rounded"
-        />
-
-        <input
-          name="bendahara"
-          onChange={handlePengurusChange}
-          placeholder="BENDAHARA"
-          className="w-full p-2 border rounded"
-        />
-
-        <input
-          name="advisor"
-          onChange={handlePengurusChange}
-          placeholder="ADVISOR (pisahkan dengan koma)"
-          className="w-full p-2 border rounded"
-        />
-
-        <button
-          onClick={save}
-          className="px-4 py-2 bg-blue-600 text-white rounded"
-        >
-          Simpan
-        </button>
+          <button
+            onClick={save}
+            className="w-full py-3 bg-blue-600 text-white font-semibold rounded hover:bg-blue-700"
+          >
+            Simpan Organisasi
+          </button>
+        </div>
       </div>
     </div>
   );

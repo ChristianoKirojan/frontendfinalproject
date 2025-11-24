@@ -22,11 +22,14 @@ export default function AdminList() {
   };
 
   return (
-    <div>
+    <div className="mt-28 px-4"> {/* <<< Tambahkan margin-top agar tidak tertutup header */}
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-3xl font-bold">Daftar Organisasi</h1>
+        <h1 className="text-3xl font-italic text-white">Daftar Organisasi</h1>
 
-        <Link to="/admin/add" className="px-4 py-2 bg-blue-600 text-white rounded">
+        <Link
+          to="/admin/add"
+          className="px-4 py-2 bg-blue-600 text-white rounded"
+        >
           Tambah Organisasi
         </Link>
       </div>

@@ -32,7 +32,7 @@ export default function EditOrg() {
       });
     });
   }, [id]);
-  
+
   const handleBasicChange = (e) => {
     setForm({
       ...form,
@@ -66,52 +66,59 @@ export default function EditOrg() {
   };
 
   return (
-    <div>
-      <h1 className="text-3xl font-bold mb-6">Edit Organisasi</h1>
+    <div className="flex justify-center p-6">
+      <div className="w-full max-w-2xl bg-white shadow-lg rounded-xl p-6">
 
-      <div className="space-y-3">
+        <h1 className="text-3xl font-bold mb-6 text-center">
+          Edit Organisasi
+        </h1>
 
-        <input
-          name="name"
-          value={form.name}
-          onChange={handleBasicChange}
-          placeholder="NAMA ORGANISASI"
-          className="w-full p-2 border rounded"
-        />
+        <div className="space-y-3">
 
-        <input
-          name="image"
-          value={form.image}
-          onChange={handleBasicChange}
-          placeholder="URL GAMBAR (boleh dikosongkan)"
-          className="w-full p-2 border rounded"
-        />
-
-        <textarea
-          name="description"
-          value={form.description}
-          onChange={handleBasicChange}
-          placeholder="DESKRIPSI ORGANISASI"
-          className="w-full p-2 border rounded"
-        />
-
-        {Object.keys(form.pengurus).map((key) => (
           <input
-            key={key}
-            name={key}
-            value={form.pengurus[key]}
-            onChange={handlePengurusChange}
-            placeholder={key.toUpperCase()}
+            name="name"
+            value={form.name}
+            onChange={handleBasicChange}
+            placeholder="NAMA ORGANISASI"
             className="w-full p-2 border rounded"
           />
-        ))}
 
-        <button
-          onClick={save}
-          className="px-4 py-2 bg-yellow-600 text-white rounded"
-        >
-          Update
-        </button>
+          <input
+            name="image"
+            value={form.image}
+            onChange={handleBasicChange}
+            placeholder="URL GAMBAR (boleh dikosongkan)"
+            className="w-full p-2 border rounded"
+          />
+
+          <textarea
+            name="description"
+            value={form.description}
+            onChange={handleBasicChange}
+            placeholder="DESKRIPSI ORGANISASI"
+            className="w-full p-2 border rounded"
+          />
+
+          {Object.keys(form.pengurus).map((key) => (
+            <input
+              key={key}
+              name={key}
+              value={form.pengurus[key]}
+              onChange={handlePengurusChange}
+              placeholder={key.toUpperCase()}
+              className="w-full p-2 border rounded"
+            />
+          ))}
+
+          <button
+            onClick={save}
+            className="w-full py-2 bg-yellow-600 text-white rounded hover:bg-yellow-700"
+          >
+            Update
+          </button>
+
+        </div>
+
       </div>
     </div>
   );
