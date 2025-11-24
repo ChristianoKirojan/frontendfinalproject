@@ -4,32 +4,88 @@
       "id": "1",
       "name": "Tou Minahasa",
       "image": "/src/assets/touminahasa.jpg",
-      "description": "Organisasi mahasiswa Minahasa.",
+      "description": [
+        "Tou Minahasa adalah organisasi kemahasiswaan yang mewadahi seluruh mahasiswa yang berasal dari suku Minahasa yang sedang menempuh pendidikan di Universitas Klabat.",
+        "Organisasi ini bertujuan untuk mempererat tali persaudaraan antar mahasiswa Minahasa serta melestarikan budaya Minahasa di lingkungan kampus dan masyarakat luas."
+      ],
       "pengurus": {
-        "ketua": "Rantung, Alexander",
-        "wakil": "Mokoginta, Isal",
-        "sekretaris": "Kapoh, Meghia",
-        "bendahara": "Korengkeng, Angely",
-        "advisor": [
-          "Sir boy Lumoindong M.Pd",
-          "Sir Nofry Frans M.Pd"
-        ]
+        "ketua": {
+          "0": "[",
+          "1": "o",
+          "2": "b",
+          "3": "j",
+          "4": "e",
+          "5": "c",
+          "6": "t",
+          "7": " ",
+          "8": "O",
+          "9": "b",
+          "10": "j",
+          "11": "e",
+          "12": "c",
+          "13": "t",
+          "14": "]",
+          "nama": "Rantung, Alex",
+          "image": "/pengurus.jpg"
+        },
+        "wakil": {
+          "nama": "Mokoginta, Isal",
+          "image": "/pengurus.jpg"
+        },
+        "sekretaris": {
+          "nama": "Kapoh, Meghia",
+          "image": "/pengurus.jpg"
+        },
+        "bendahara": {
+          "nama": "Korengkeng, Angely",
+          "image": "/pengurus.jpg"
+        },
+        "advisor": {
+          "0": "[object Object]",
+          "1": "[object Object]",
+          "image": "/pengurus.jpg",
+          "nama": "Boy Lumoindong M.Pd"
+        }
       }
     },
     {
       "id": "2",
       "name": "CSSA",
       "image": "/src/assets/cssa.jpg",
-      "description": "Computer Science Student Association.",
+      "description": [
+        "Computer Science Student Association (CSSA) adalah organisasi kemahasiswaan yang mewadahi seluruh mahasiswa jurusan Sistem Informasi dan Teknik Informatika di Universitas Klabat.",
+        "CSSA bertujuan untuk mengembangkan kemampuan teknis dan non-teknis anggotanya melalui berbagai kegiatan seperti seminar, workshop, kompetisi, dan proyek kolaboratif."
+      ],
       "pengurus": {
-        "ketua": "Keni, Riana",
-        "wakil": "Londah, Miceflona",
-        "sekretaris": "Siwi, Meilyan",
-        "bendahara": "Eklesia Dondokambey",
+        "ketua": {
+          "nama": "Keni, Riana",
+          "image": "/pengurus.jpg"
+        },
+        "wakil": {
+          "nama": "Londah, Miceflona",
+          "image": "/pengurus.jpg"
+        },
+        "sekretaris": {
+          "nama": "Siwi, Meilyan",
+          "image": "/pengurus.jpg"
+        },
+        "bendahara": {
+          "nama": "Eklesia Dondokambey",
+          "image": "/pengurus.jpg"
+        },
         "advisor": [
-          "Sir Sandag, Green M.S",
-          "Sir Kopopitawondal, Julio",
-          "Sir Silitonga, Argha"
+          {
+            "nama": "Sir Sandag, Green M.S",
+            "image": "/pengurus.jpg"
+          },
+          {
+            "nama": "Sir Kopopitawondal, Julio",
+            "image": "/pengurus.jpg"
+          },
+          {
+            "nama": "Sir Silitonga, Argha",
+            "image": "/pengurus.jpg"
+          }
         ]
       }
     },
@@ -37,14 +93,32 @@
       "id": "3",
       "name": "Matuariwaya",
       "image": "/src/assets/matuariwaya.jpg",
-      "description": "Organisasi mahasiswa yang ada di sulawesi utara",
+      "description": [
+        "Matuariwaya adalah organisasi kemahasiswaan yang mewadahi seluruh mahasiswa yang berasal dari semua suku yang berada di sulawesi utara yang sedang menempuh pendidikan di Universitas Klabat.",
+        "Organisasi ini bertujuan untuk mempererat tali persaudaraan antar mahasiswa serta melestarikan budaya dari suku' yang ada di sulawesi utara di lingkungan kampus dan masyarakat luas."
+      ],
       "pengurus": {
-        "ketua": "Maengkom, Piere",
-        "wakil": "Manampiring, Cliford",
-        "sekretaris": "Lembong, Prince",
-        "bendahara": "Lomban, Niken",
+        "ketua": {
+          "nama": "Maengkom, Piere",
+          "image": "/pengurus.jpg"
+        },
+        "wakil": {
+          "nama": "Manampiring, Cliford",
+          "image": "/pengurus.jpg"
+        },
+        "sekretaris": {
+          "nama": "Lembong, Prince",
+          "image": "/pengurus.jpg"
+        },
+        "bendahara": {
+          "nama": "Lomban, Niken",
+          "image": "/pengurus.jpg"
+        },
         "advisor": [
-          "-"
+          {
+            "nama": "-",
+            "image": "/pengurus.jpg"
+          }
         ]
       }
     },
@@ -52,18 +126,48 @@
       "id": "4",
       "name": "Maranatha",
       "image": "/src/assets/maranatha.jpg",
-      "description": "Organisasi rohani mahasiswa Maranatha.",
+      "description": [
+        "Maranatha adalah organisasi kemahasiswaan yang mewadahi seluruh mahasiswa Kristen di Universitas Klabat.",
+        "Organisasi ini bertujuan untuk memperkuat iman dan spiritualitas anggotanya melalui kegiatan ibadah, studi Alkitab, pelayanan sosial, dan pengembangan kepemimpinan Kristen."
+      ],
       "pengurus": {
-        "ketua": "Maengkom, Belden",
-        "wakil": "Geilsen Kossoh",
-        "sekretaris": "Mamuaya, Tiara",
-        "bendahara": "Gulfan Dayo",
+        "ketua": {
+          "nama": "Maengkom, Belden",
+          "image": "/pengurus.jpg"
+        },
+        "wakil": {
+          "nama": "Geilsen Kossoh",
+          "image": "/pengurus.jpg"
+        },
+        "sekretaris": {
+          "nama": "Mamuaya, Tiara",
+          "image": "/pengurus.jpg"
+        },
+        "bendahara": {
+          "nama": "Gulfan Dayo",
+          "image": "/pengurus.jpg"
+        },
         "advisor": [
-          "Ir. Edson Y. Putra M.Kom",
-          "Sir Sahulata, Reynoldus A. S.Kom, M.M",
-          "Pdt Sanjaya, Febry S.Fil, M.Th",
-          "Sir Lontaan, Rolly J. M.Kom",
-          "Pdt Harwanto, Budi MDiv, PhD"
+          {
+            "nama": "Ir. Edson Y. Putra M.Kom",
+            "image": "/pengurus.jpg"
+          },
+          {
+            "nama": "Sir Sahulata, Reynoldus A. S.Kom, M.M",
+            "image": "/pengurus.jpg"
+          },
+          {
+            "nama": "Pdt Sanjaya, Febry S.Fil, M.Th",
+            "image": "/pengurus.jpg"
+          },
+          {
+            "nama": "Sir Lontaan, Rolly J. M.Kom",
+            "image": "/pengurus.jpg"
+          },
+          {
+            "nama": "Pdt Harwanto, Budi MDiv, PhD",
+            "image": "/pengurus.jpg"
+          }
         ]
       }
     },
@@ -71,67 +175,168 @@
       "id": "5",
       "name": "Mapala",
       "image": "/src/assets/mapala.jpg",
-      "description": "Mahasiswa pecinta alam Universitas Klabat.",
+      "description": [
+        "Mahasiswa Pecinta Alam (Mapala) adalah organisasi kemahasiswaan yang mewadahi mahasiswa yang memiliki minat dan kepedulian terhadap alam dan lingkungan hidup di Universitas Klabat.",
+        "Mapala bertujuan untuk mengembangkan kesadaran lingkungan, keterampilan outdoor, dan jiwa petualang melalui berbagai kegiatan seperti pendakian gunung, eksplorasi alam, konservasi lingkungan, dan pendidikan lingkungan."
+      ],
       "pengurus": {
-        "ketua": "Lompoliuw, Trafis",
-        "wakil": "Laksander, Brain",
-        "sekretaris": "Manueke, Bryen",
-        "bendahara": "Lengkong, Clifert",
-        "advisor": "-"
+        "ketua": {
+          "nama": "Lompoliuw, Trafis",
+          "image": "/pengurus.jpg"
+        },
+        "wakil": {
+          "nama": "Laksander, Brain",
+          "image": "/pengurus.jpg"
+        },
+        "sekretaris": {
+          "nama": "Manueke, Bryen",
+          "image": "/pengurus.jpg"
+        },
+        "bendahara": {
+          "nama": "Lengkong, Clifert",
+          "image": "/pengurus.jpg"
+        },
+        "advisor": [
+          {
+            "nama": "-",
+            "image": "/pengurus.jpg"
+          }
+        ]
       }
     },
     {
       "id": "6",
       "name": "IKMAPAP",
       "image": "/src/assets/ikmapap.jpg",
-      "description": "Ikatan Mahasiswa Papua.",
+      "description": [
+        "Ikatan Mahasiswa Papua (IKMAPAP) adalah organisasi kemahasiswaan yang mewadahi seluruh mahasiswa yang berasal dari Papua yang sedang menempuh pendidikan di Universitas Klabat.",
+        "Organisasi ini bertujuan untuk mempererat tali persaudaraan antar mahasiswa Papua serta melestarikan budaya Papua di lingkungan kampus dan masyarakat luas."
+      ],
       "pengurus": {
-        "ketua": "Karubaba, Smart",
-        "wakil": "Andoro, Catline",
-        "sekretaris": "Rantung, Gian",
-        "bendahara": "Watulingas, Gilbert",
-        "advisor": "-"
+        "ketua": {
+          "nama": "Karubaba, Smart",
+          "image": "/pengurus.jpg"
+        },
+        "wakil": {
+          "nama": "Andoro, Catline",
+          "image": "/pengurus.jpg"
+        },
+        "sekretaris": {
+          "nama": "Rantung, Gian",
+          "image": "/pengurus.jpg"
+        },
+        "bendahara": {
+          "nama": "Watulingas, Gilbert",
+          "image": "/pengurus.jpg"
+        },
+        "advisor": [
+          {
+            "nama": "-",
+            "image": "/pengurus.jpg"
+          }
+        ]
       }
     },
     {
       "id": "7",
       "name": "IKMAMA",
       "image": "/src/assets/ikmama.jpg",
-      "description": "Ikatan Mahasiswa Maluku.",
+      "description": [
+        "Ikatan Mahasiswa Maluku (IKMAMA) adalah organisasi kemahasiswaan yang mewadahi seluruh mahasiswa yang berasal dari Maluku yang sedang menempuh pendidikan di Universitas Klabat.",
+        "Organisasi ini bertujuan untuk mempererat tali persaudaraan antar mahasiswa Maluku serta melestarikan budaya Maluku di lingkungan kampus dan masyarakat luas."
+      ],
       "pengurus": {
-        "ketua": "Warembungan, Imanuel",
-        "wakil": "Tangkuman, Fieken",
-        "sekretaris": "Pamusuh, Clif",
-        "bendahara": "Rantung, Arjen",
-        "advisor": "-"
+        "ketua": {
+          "nama": "Warembungan, Imanuel",
+          "image": "/pengurus.jpg"
+        },
+        "wakil": {
+          "nama": "Tangkuman, Fieken",
+          "image": "/pengurus.jpg"
+        },
+        "sekretaris": {
+          "nama": "Pamusuh, Clif",
+          "image": "/pengurus.jpg"
+        },
+        "bendahara": {
+          "nama": "Rantung, Arjen",
+          "image": "/pengurus.jpg"
+        },
+        "advisor": [
+          {
+            "nama": "-",
+            "image": "/pengurus.jpg"
+          }
+        ]
       }
     },
     {
       "id": "8",
       "name": "Totabuan",
       "image": "/src/assets/totabuan.jpg",
-      "description": "Organisasi mahasiswa Bolaang Mongondow Raya.",
+      "description": [
+        "Totabuan adalah organisasi kemahasiswaan yang mewadahi seluruh mahasiswa yang berasal dari suku Bolaang Mongondow yang sedang menempuh pendidikan di Universitas Klabat.",
+        "Organisasi ini bertujuan untuk mempererat tali persaudaraan antar mahasiswa Bolaang Mongondow serta melestarikan budaya Bolaang Mongondow di lingkungan kampus dan masyarakat luas."
+      ],
       "pengurus": {
-        "ketua": "Dien, Fando",
-        "wakil": "Assa, Karfel",
-        "sekretaris": "Angkow, Dave",
-        "bendahara": "Lompoliuw, Ensi",
-        "advisor": "-"
+        "ketua": {
+          "nama": "Dien, Fando",
+          "image": "/pengurus.jpg"
+        },
+        "wakil": {
+          "nama": "Assa, Karfel",
+          "image": "/pengurus.jpg"
+        },
+        "sekretaris": {
+          "nama": "Angkow, Dave",
+          "image": "/pengurus.jpg"
+        },
+        "bendahara": {
+          "nama": "Lompoliuw, Ensi",
+          "image": "/pengurus.jpg"
+        },
+        "advisor": [
+          {
+            "nama": "-",
+            "image": "/pengurus.jpg"
+          }
+        ]
       }
     },
     {
       "id": "9",
       "name": "BEM",
       "image": "/src/assets/bem.jpg",
-      "description": "Badan Eksekutif Mahasiswa Universitas Klabat.",
+      "description": [
+        "Badan Eksekutif Mahasiswa (BEM) adalah organisasi kemahasiswaan yang berfungsi sebagai lembaga eksekutif tertinggi di tingkat universitas yang mewakili seluruh mahasiswa Universitas Klabat.",
+        "BEM bertujuan untuk mengkoordinasikan kegiatan kemahasiswaan, menyuarakan aspirasi mahasiswa, serta mengembangkan kepemimpinan dan keterampilan organisasi di kalangan mahasiswa."
+      ],
       "pengurus": {
-        "ketua": "Heazer, Hizkia",
-        "wakil": "Gerung, Andrew",
-        "sekretaris": "Sela, Sheren",
-        "bendahara": "-",
+        "ketua": {
+          "nama": "Heazer, Hizkia",
+          "image": "/pengurus.jpg"
+        },
+        "wakil": {
+          "nama": "Gerung, Andrew",
+          "image": "/pengurus.jpg"
+        },
+        "sekretaris": {
+          "nama": "Sela, Sheren",
+          "image": "/pengurus.jpg"
+        },
+        "bendahara": {
+          "nama": "-",
+          "image": "/pengurus.jpg"
+        },
         "advisor": [
-          "Pdt Tauran, Edgar MDiv, DMiss",
-          "Sir Kasingku, Frisky j. S.E, MSc"
+          {
+            "nama": "Pdt Tauran, Edgar MDiv, DMiss",
+            "image": "/pengurus.jpg"
+          },
+          {
+            "nama": "Sir Kasingku, Frisky j. S.E, MSc",
+            "image": "/pengurus.jpg"
+          }
         ]
       }
     }

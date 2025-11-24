@@ -22,7 +22,7 @@ export default function AdminList() {
   };
 
   return (
-    <div className="mt-28 px-4"> {/* <<< Tambahkan margin-top agar tidak tertutup header */}
+    <div className="mt-28 px-4">
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-3xl font-italic text-white">Daftar Organisasi</h1>
 
@@ -47,7 +47,11 @@ export default function AdminList() {
           {orgs.map((org) => (
             <tr key={org.id} className="border-b">
               <td className="p-3">{org.name}</td>
-              <td className="p-3">{org.pengurus.ketua}</td>
+
+              {/* FIX: Tampilkan nama, bukan object */}
+              <td className="p-3">
+                {org.pengurus?.ketua?.nama || "-"}
+              </td>
 
               <td className="p-3 space-x-2">
                 <Link
